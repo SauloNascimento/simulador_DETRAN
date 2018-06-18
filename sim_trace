@@ -1,0 +1,303 @@
+u: Source at 0.0: New request from processor.
+u: Processor at 30.0: Disk1 selected for I/O work.
+u: Disk1 at 30.0: Disk request started
+u: Source at 50.0: New request from processor.
+u: Processor at 80.0: Disk2 selected for I/O work.
+u: Disk2 at 80.0: Disk request started
+u: Source at 100.0: New request from processor.
+u: Processor at 130.0: Disk1 selected for I/O work.
+u: Disk1 at 130.0: Disk request started
+u: Source at 150.0: New request from processor.
+u: Processor at 180.0: Disk2 selected for I/O work.
+u: Disk2 at 190.0: Disk request started
+u: Source at 200.0: New request from processor.
+u: Processor at 230.0: Disk1 selected for I/O work.
+u: Disk1 at 230.0: Disk request started
+u: Source at 250.0: New request from processor.
+u: Processor at 280.0: Disk2 selected for I/O work.
+u: Source at 300.0: New request from processor.
+u: Disk2 at 300.0: Disk request started
+u: Processor at 330.0: Disk1 selected for I/O work.
+u: Disk1 at 330.0: Disk request started
+u: Source at 350.0: New request from processor.
+u: Processor at 380.0: Disk2 selected for I/O work.
+u: Source at 400.0: New request from processor.
+u: Disk2 at 410.0: Disk request started
+u: Processor at 430.0: Disk1 selected for I/O work.
+u: Disk1 at 430.0: Disk request started
+u: Source at 450.0: New request from processor.
+u: Processor at 480.0: Disk2 selected for I/O work.
+u: Source at 500.0: New request from processor.
+u: Disk2 at 520.0: Disk request started
+u: Processor at 530.0: Disk1 selected for I/O work.
+u: Disk1 at 530.0: Disk request started
+u: Source at 550.0: New request from processor.
+u: Processor at 580.0: Disk2 selected for I/O work.
+u: Source at 600.0: New request from processor.
+u: Processor at 630.0: Disk1 selected for I/O work.
+u: Disk2 at 630.0: Disk request started
+u: Disk1 at 630.0: Disk request started
+u: Source at 650.0: New request from processor.
+u: Processor at 680.0: Disk2 selected for I/O work.
+u: Source at 700.0: New request from processor.
+u: Processor at 730.0: Disk1 selected for I/O work.
+u: Disk1 at 730.0: Disk request started
+u: Disk2 at 740.0: Disk request started
+u: Source at 750.0: New request from processor.
+u: Processor at 780.0: Disk2 selected for I/O work.
+u: Source at 800.0: New request from processor.
+u: Processor at 830.0: Disk1 selected for I/O work.
+u: Disk1 at 830.0: Disk request started
+u: Source at 850.0: New request from processor.
+u: Disk2 at 850.0: Disk request started
+u: Processor at 880.0: Disk2 selected for I/O work.
+u: Source at 900.0: New request from processor.
+u: Processor at 930.0: Disk1 selected for I/O work.
+u: Disk1 at 930.0: Disk request started
+u: Source at 950.0: New request from processor.
+u: Disk2 at 960.0: Disk request started
+u: Processor at 980.0: Disk2 selected for I/O work.
+u: Source at 1000.0: New request from processor.
+u: Processor at 1030.0: Disk1 selected for I/O work.
+u: Disk1 at 1030.0: Disk request started
+u: Source at 1050.0: New request from processor.
+u: Disk2 at 1070.0: Disk request started
+u: Processor at 1080.0: Disk2 selected for I/O work.
+u: Source at 1100.0: New request from processor.
+u: Processor at 1130.0: Disk1 selected for I/O work.
+u: Disk1 at 1130.0: Disk request started
+u: Source at 1150.0: New request from processor.
+u: Processor at 1180.0: Disk2 selected for I/O work.
+u: Disk2 at 1180.0: Disk request started
+u: Source at 1200.0: New request from processor.
+u: Processor at 1230.0: Disk1 selected for I/O work.
+u: Disk1 at 1230.0: Disk request started
+u: Source at 1250.0: New request from processor.
+u: Processor at 1280.0: Disk2 selected for I/O work.
+u: Disk2 at 1290.0: Disk request started
+u: Source at 1300.0: New request from processor.
+u: Processor at 1330.0: Disk1 selected for I/O work.
+u: Disk1 at 1330.0: Disk request started
+u: Source at 1350.0: New request from processor.
+u: Processor at 1380.0: Disk2 selected for I/O work.
+u: Source at 1400.0: New request from processor.
+u: Disk2 at 1400.0: Disk request started
+u: Processor at 1430.0: Disk1 selected for I/O work.
+u: Disk1 at 1430.0: Disk request started
+u: Source at 1450.0: New request from processor.
+u: Processor at 1480.0: Disk2 selected for I/O work.
+u: Source at 1500.0: New request from processor.
+u: Disk2 at 1510.0: Disk request started
+u: Processor at 1530.0: Disk1 selected for I/O work.
+u: Disk1 at 1530.0: Disk request started
+u: Source at 1550.0: New request from processor.
+u: Processor at 1580.0: Disk2 selected for I/O work.
+u: Source at 1600.0: New request from processor.
+u: Disk2 at 1620.0: Disk request started
+u: Processor at 1630.0: Disk1 selected for I/O work.
+u: Disk1 at 1630.0: Disk request started
+u: Source at 1650.0: New request from processor.
+u: Processor at 1680.0: Disk2 selected for I/O work.
+u: Source at 1700.0: New request from processor.
+u: Processor at 1730.0: Disk1 selected for I/O work.
+u: Disk2 at 1730.0: Disk request started
+u: Disk1 at 1730.0: Disk request started
+u: Source at 1750.0: New request from processor.
+u: Processor at 1780.0: Disk2 selected for I/O work.
+u: Source at 1800.0: New request from processor.
+u: Processor at 1830.0: Disk1 selected for I/O work.
+u: Disk1 at 1830.0: Disk request started
+u: Disk2 at 1840.0: Disk request started
+u: Source at 1850.0: New request from processor.
+u: Processor at 1880.0: Disk2 selected for I/O work.
+u: Source at 1900.0: New request from processor.
+u: Processor at 1930.0: Disk1 selected for I/O work.
+u: Disk1 at 1930.0: Disk request started
+u: Source at 1950.0: New request from processor.
+u: Disk2 at 1950.0: Disk request started
+u: Processor at 1980.0: Disk2 selected for I/O work.
+u: Source at 2000.0: New request from processor.
+u: Processor at 2030.0: Disk1 selected for I/O work.
+u: Disk1 at 2030.0: Disk request started
+u: Source at 2050.0: New request from processor.
+u: Disk2 at 2060.0: Disk request started
+u: Processor at 2080.0: Disk2 selected for I/O work.
+u: Source at 2100.0: New request from processor.
+u: Processor at 2130.0: Disk1 selected for I/O work.
+u: Disk1 at 2130.0: Disk request started
+u: Source at 2150.0: New request from processor.
+u: Disk2 at 2170.0: Disk request started
+u: Processor at 2180.0: Disk2 selected for I/O work.
+u: Source at 2200.0: New request from processor.
+u: Processor at 2230.0: Disk1 selected for I/O work.
+u: Disk1 at 2230.0: Disk request started
+u: Source at 2250.0: New request from processor.
+u: Processor at 2280.0: Disk2 selected for I/O work.
+u: Disk2 at 2280.0: Disk request started
+u: Source at 2300.0: New request from processor.
+u: Processor at 2330.0: Disk1 selected for I/O work.
+u: Disk1 at 2330.0: Disk request started
+u: Source at 2350.0: New request from processor.
+u: Processor at 2380.0: Disk2 selected for I/O work.
+u: Disk2 at 2390.0: Disk request started
+u: Source at 2400.0: New request from processor.
+u: Processor at 2430.0: Disk1 selected for I/O work.
+u: Disk1 at 2430.0: Disk request started
+u: Source at 2450.0: New request from processor.
+u: Processor at 2480.0: Disk2 selected for I/O work.
+u: Source at 2500.0: New request from processor.
+u: Disk2 at 2500.0: Disk request started
+u: Processor at 2530.0: Disk1 selected for I/O work.
+u: Disk1 at 2530.0: Disk request started
+u: Source at 2550.0: New request from processor.
+u: Processor at 2580.0: Disk2 selected for I/O work.
+u: Source at 2600.0: New request from processor.
+u: Disk2 at 2610.0: Disk request started
+u: Processor at 2630.0: Disk1 selected for I/O work.
+u: Disk1 at 2630.0: Disk request started
+u: Source at 2650.0: New request from processor.
+u: Processor at 2680.0: Disk2 selected for I/O work.
+u: Source at 2700.0: New request from processor.
+u: Disk2 at 2720.0: Disk request started
+u: Processor at 2730.0: Disk1 selected for I/O work.
+u: Disk1 at 2730.0: Disk request started
+u: Source at 2750.0: New request from processor.
+u: Processor at 2780.0: Disk2 selected for I/O work.
+u: Source at 2800.0: New request from processor.
+u: Processor at 2830.0: Disk1 selected for I/O work.
+u: Disk2 at 2830.0: Disk request started
+u: Disk1 at 2830.0: Disk request started
+u: Source at 2850.0: New request from processor.
+u: Processor at 2880.0: Disk2 selected for I/O work.
+u: Source at 2900.0: New request from processor.
+u: Processor at 2930.0: Disk1 selected for I/O work.
+u: Disk1 at 2930.0: Disk request started
+u: Disk2 at 2940.0: Disk request started
+u: Source at 2950.0: New request from processor.
+u: Processor at 2980.0: Disk2 selected for I/O work.
+u: Source at 3000.0: New request from processor.
+u: Processor at 3030.0: Disk1 selected for I/O work.
+u: Disk1 at 3030.0: Disk request started
+u: Source at 3050.0: New request from processor.
+u: Disk2 at 3050.0: Disk request started
+u: Processor at 3080.0: Disk2 selected for I/O work.
+u: Source at 3100.0: New request from processor.
+u: Processor at 3130.0: Disk1 selected for I/O work.
+u: Disk1 at 3130.0: Disk request started
+u: Source at 3150.0: New request from processor.
+u: Disk2 at 3160.0: Disk request started
+u: Processor at 3180.0: Disk2 selected for I/O work.
+u: Source at 3200.0: New request from processor.
+u: Processor at 3230.0: Disk1 selected for I/O work.
+u: Disk1 at 3230.0: Disk request started
+u: Source at 3250.0: New request from processor.
+u: Disk2 at 3270.0: Disk request started
+u: Processor at 3280.0: Disk2 selected for I/O work.
+u: Source at 3300.0: New request from processor.
+u: Processor at 3330.0: Disk1 selected for I/O work.
+u: Disk1 at 3330.0: Disk request started
+u: Source at 3350.0: New request from processor.
+u: Processor at 3380.0: Disk2 selected for I/O work.
+u: Disk2 at 3380.0: Disk request started
+u: Source at 3400.0: New request from processor.
+u: Processor at 3430.0: Disk1 selected for I/O work.
+u: Disk1 at 3430.0: Disk request started
+u: Source at 3450.0: New request from processor.
+u: Processor at 3480.0: Disk2 selected for I/O work.
+u: Disk2 at 3490.0: Disk request started
+u: Source at 3500.0: New request from processor.
+u: Processor at 3530.0: Disk1 selected for I/O work.
+u: Disk1 at 3530.0: Disk request started
+u: Source at 3550.0: New request from processor.
+u: Processor at 3580.0: Disk2 selected for I/O work.
+u: Source at 3600.0: New request from processor.
+u: Disk2 at 3600.0: Disk request started
+u: Processor at 3630.0: Disk1 selected for I/O work.
+u: Disk1 at 3630.0: Disk request started
+u: Source at 3650.0: New request from processor.
+u: Processor at 3680.0: Disk2 selected for I/O work.
+u: Source at 3700.0: New request from processor.
+u: Disk2 at 3710.0: Disk request started
+u: Processor at 3730.0: Disk1 selected for I/O work.
+u: Disk1 at 3730.0: Disk request started
+u: Source at 3750.0: New request from processor.
+u: Processor at 3780.0: Disk2 selected for I/O work.
+u: Source at 3800.0: New request from processor.
+u: Disk2 at 3820.0: Disk request started
+u: Processor at 3830.0: Disk1 selected for I/O work.
+u: Disk1 at 3830.0: Disk request started
+u: Source at 3850.0: New request from processor.
+u: Processor at 3880.0: Disk2 selected for I/O work.
+u: Source at 3900.0: New request from processor.
+u: Processor at 3930.0: Disk1 selected for I/O work.
+u: Disk2 at 3930.0: Disk request started
+u: Disk1 at 3930.0: Disk request started
+u: Source at 3950.0: New request from processor.
+u: Processor at 3980.0: Disk2 selected for I/O work.
+u: Source at 4000.0: New request from processor.
+u: Processor at 4030.0: Disk1 selected for I/O work.
+u: Disk1 at 4030.0: Disk request started
+u: Disk2 at 4040.0: Disk request started
+u: Source at 4050.0: New request from processor.
+u: Processor at 4080.0: Disk2 selected for I/O work.
+u: Source at 4100.0: New request from processor.
+u: Processor at 4130.0: Disk1 selected for I/O work.
+u: Disk1 at 4130.0: Disk request started
+u: Source at 4150.0: New request from processor.
+u: Disk2 at 4150.0: Disk request started
+u: Processor at 4180.0: Disk2 selected for I/O work.
+u: Source at 4200.0: New request from processor.
+u: Processor at 4230.0: Disk1 selected for I/O work.
+u: Disk1 at 4230.0: Disk request started
+u: Source at 4250.0: New request from processor.
+u: Disk2 at 4260.0: Disk request started
+u: Processor at 4280.0: Disk2 selected for I/O work.
+u: Source at 4300.0: New request from processor.
+u: Processor at 4330.0: Disk1 selected for I/O work.
+u: Disk1 at 4330.0: Disk request started
+u: Source at 4350.0: New request from processor.
+u: Disk2 at 4370.0: Disk request started
+u: Processor at 4380.0: Disk2 selected for I/O work.
+u: Source at 4400.0: New request from processor.
+u: Processor at 4430.0: Disk1 selected for I/O work.
+u: Disk1 at 4430.0: Disk request started
+u: Source at 4450.0: New request from processor.
+u: Processor at 4480.0: Disk2 selected for I/O work.
+u: Disk2 at 4480.0: Disk request started
+u: Source at 4500.0: New request from processor.
+u: Processor at 4530.0: Disk1 selected for I/O work.
+u: Disk1 at 4530.0: Disk request started
+u: Source at 4550.0: New request from processor.
+u: Processor at 4580.0: Disk2 selected for I/O work.
+u: Disk2 at 4590.0: Disk request started
+u: Source at 4600.0: New request from processor.
+u: Processor at 4630.0: Disk1 selected for I/O work.
+u: Disk1 at 4630.0: Disk request started
+u: Source at 4650.0: New request from processor.
+u: Processor at 4680.0: Disk2 selected for I/O work.
+u: Source at 4700.0: New request from processor.
+u: Disk2 at 4700.0: Disk request started
+u: Processor at 4730.0: Disk1 selected for I/O work.
+u: Disk1 at 4730.0: Disk request started
+u: Source at 4750.0: New request from processor.
+u: Processor at 4780.0: Disk2 selected for I/O work.
+u: Source at 4800.0: New request from processor.
+u: Disk2 at 4810.0: Disk request started
+u: Processor at 4830.0: Disk1 selected for I/O work.
+u: Disk1 at 4830.0: Disk request started
+u: Source at 4850.0: New request from processor.
+u: Processor at 4880.0: Disk2 selected for I/O work.
+u: Source at 4900.0: New request from processor.
+u: Disk2 at 4920.0: Disk request started
+u: Processor at 4930.0: Disk1 selected for I/O work.
+u: Disk1 at 4930.0: Disk request started
+u: Source at 4950.0: New request from processor.
+u: Processor at 4980.0: Disk2 selected for I/O work.
+u: Disk2 at 5030.0: Disk request started
+u: Disk2 at 5140.0: Disk request started
+u: Disk2 at 5250.0: Disk request started
+u: Disk2 at 5360.0: Disk request started
+u: Disk2 at 5470.0: Disk request started
+u: Processor at 5580.0: Disk1 selected for I/O work.
+u: Disk1 at 5580.0: Disk request started
+u: Disk2 at 5580.0: Disk request started
