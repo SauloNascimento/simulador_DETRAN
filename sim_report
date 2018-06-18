@@ -6,17 +6,17 @@
 
 Version: SimJava 2.0
 
-Simulation date:         4 de Junho de 2018
-Simulation start time:   10h53min12s BRT
-Simulation end time:     10h53min12s BRT
+Simulation date:         18 de Junho de 2018
+Simulation start time:   18h53min43s BRT
+Simulation end time:     18h53min43s BRT
 
 ############################################################
 #            Overall simulation run information            #
 ############################################################
 
-Total simulated time:    5580.0
+Total simulated time:    6054.671372951723
 Total transient time:    0.0
-Total steady state time: 5580.0
+Total steady state time: 6054.671372951723
 Transient condition:     None
 Termination condition:   None
 Output analysis method:  None

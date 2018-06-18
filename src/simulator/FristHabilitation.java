@@ -3,17 +3,17 @@ package simulator;
 import eduni.simjava.*;
 import eduni.simjava.distributions.*;
 
-class Fines extends Sim_entity {
+class FristHabilitation extends Sim_entity {
 	private Sim_port in, out;
 	private Sim_normal_obj delay;
 
-	Fines(String name, double mean, double var) {
+	FristHabilitation(String name, double mean, double var) {
 		super(name);
 		in = new Sim_port("In");
 		out = new Sim_port("Out");
 		add_port(in);
 		add_port(out);
-		this.delay = new Sim_normal_obj("DelayFines", mean, var);
+		this.delay = new Sim_normal_obj("DelayFristHabilitation", mean, var);
         add_generator(delay);
 	}
 
