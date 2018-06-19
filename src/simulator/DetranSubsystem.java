@@ -34,9 +34,7 @@ public class DetranSubsystem {
 		Sim_system.link_ports("Licensing", "Out", "Rate", "In");
 		Sim_system.link_ports("FristHabilitation", "Out", "Rate", "In");
 		Sim_system.link_ports("Renovation", "Out", "Rate", "In");
-		// Configure trace to the simulator (default, entity, event)
 		Sim_system.set_trace_detail(false, true, false);
-		// Run the simulation
 		Sim_system.run();
 	}
 }

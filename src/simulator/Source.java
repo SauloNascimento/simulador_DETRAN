@@ -16,7 +16,7 @@ class Source extends Sim_entity {
 	}
 
 	public void body() {
-		for (int i = 0; i < 100; i++) {
+		while (Sim_system.running()) {
 			sim_schedule(out, 0.0, 0);
 			sim_trace(1, "New request arrives in the system.");
 			sim_pause(delay.sample());

@@ -6,6 +6,7 @@ import eduni.simjava.distributions.*;
 class Fines extends Sim_entity {
 	private Sim_port in, out;
 	private Sim_normal_obj delay;
+	private Sim_stat stat;
 
 	Fines(String name, double mean, double var) {
 		super(name);
@@ -15,6 +16,10 @@ class Fines extends Sim_entity {
 		add_port(out);
 		this.delay = new Sim_normal_obj("DelayFines", mean, var);
         add_generator(delay);
+		stat = new Sim_stat();
+		stat.add_measure(Sim_stat.THROUGHPUT);
+		stat.add_measure(Sim_stat.RESIDENCE_TIME);
+		set_stat(stat);
 	}
 
 	public void body() {

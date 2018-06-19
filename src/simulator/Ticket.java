@@ -7,6 +7,7 @@ class Ticket extends Sim_entity {
 	private Sim_port in, out1, out2, out3, out4, out5;
 	private Sim_normal_obj delay;
 	private Sim_random_obj prob;
+	private Sim_stat stat;
 
 	Ticket(String name, double mean, double var) {
 		super(name);
@@ -24,15 +25,20 @@ class Ticket extends Sim_entity {
 		add_port(out5);
 		this.delay = new Sim_normal_obj("DelayTicket", mean, var);
 		this.prob = new Sim_random_obj("TicketProbability");
-        add_generator(prob);
-        add_generator(delay);
+		add_generator(prob);
+		add_generator(delay);
+		stat = new Sim_stat();
+		stat.add_measure(Sim_stat.THROUGHPUT);
+		stat.add_measure(Sim_stat.RESIDENCE_TIME);
+		set_stat(stat);
 	}
 
 	public void body() {
 		while (Sim_system.running()) {
 			Sim_event e = new Sim_event();
 			sim_get_next(e);
-			sim_process(delay.sample());;
+			sim_process(delay.sample());
+			;
 			sim_completed(e);
 			double i = prob.sample();
 			if (i < 0.12) {
