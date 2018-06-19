@@ -7,6 +7,7 @@ class VehiclesSeizure extends Sim_entity {
 	private Sim_port in, out1, out2;
 	private Sim_normal_obj delay;
 	private Sim_random_obj prob;
+	private Sim_stat stat;
 
 	VehiclesSeizure(String name, double mean, double var) {
 		super(name);
@@ -19,6 +20,11 @@ class VehiclesSeizure extends Sim_entity {
 		this.delay = new Sim_normal_obj("DelayVehiclesSeizure", mean, var);
 		this.prob = new Sim_random_obj("VehiclesSeizureProbability");
         add_generator(prob);
+		stat = new Sim_stat();
+		stat.add_measure(Sim_stat.UTILISATION);
+		stat.add_measure(Sim_stat.WAITING_TIME);
+		stat.add_measure(Sim_stat.QUEUE_LENGTH);
+		set_stat(stat);
 	}
 
 	public void body() {

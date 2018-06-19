@@ -6,18 +6,220 @@
 
 Version: SimJava 2.0
 
-Simulation date:         18 de Junho de 2018
-Simulation start time:   18h53min43s BRT
-Simulation end time:     18h53min43s BRT
+Simulation date:         19 de Junho de 2018
+Simulation start time:   19h15min8s BRT
+Simulation end time:     19h15min9s BRT
 
 ############################################################
 #            Overall simulation run information            #
 ############################################################
 
-Total simulated time:    6054.671372951723
-Total transient time:    0.0
-Total steady state time: 6054.671372951723
-Transient condition:     None
-Termination condition:   None
+Total simulated time:    1599.1986329532556
+Total transient time:    1000.3125645171845
+Total steady state time: 598.8860684360711
+Transient condition:     1000.0 units of elapsed simulated time
+Termination condition:   200 event completions at Ticket
 Output analysis method:  None
+
+############################################################
+#               Simulation run measurements                #
+############################################################
+
+-------------------------- Ticket --------------------------
+
+- Utilisation
+
+Sample mean:          1.0
+
+- Waiting time
+
+Sample mean:          1174.8051430749683
+Sample variance:      25242.84073465733
+Sample std deviation: 158.8799569947617
+Maximum:              1445.8776112880655
+Minimum:              900.8464155261969
+
+- Queue length
+
+Sample mean:          4809.182061628554
+Sample variance:      393828.68971049413
+Sample std deviation: 627.5577182303585
+Maximum:              5879.0
+Minimum:              3686.0
+
+------------------------- Auction --------------------------
+
+- Utilisation
+
+Sample mean:          1.0
+
+- Waiting time
+
+Sample mean:          726.4868305107856
+Sample variance:      5273.313694991425
+Sample std deviation: 72.61758530129892
+Maximum:              848.9154135552197
+Minimum:              588.1515283928949
+
+- Queue length
+
+Sample mean:          35.30230267278328
+Sample variance:      4.18513589490135
+Sample std deviation: 2.0457604686036315
+Maximum:              40.0
+Minimum:              32.0
+
+----------------------- Habilitation -----------------------
+
+- Utilisation
+
+Sample mean:          1.0
+
+- Waiting time
+
+Sample mean:          891.6606260625917
+Sample variance:      15178.768516493255
+Sample std deviation: 123.20214493462869
+Maximum:              1083.3050180132325
+Minimum:              682.2147560862616
+
+- Queue length
+
+Sample mean:          110.63351193665827
+Sample variance:      186.42008406546483
+Sample std deviation: 13.65357403998912
+Maximum:              129.0
+Minimum:              91.0
+
+-------------------------- Fines ---------------------------
+
+- Utilisation
+
+Sample mean:          1.0
+
+- Waiting time
+
+Sample mean:          804.5556131839646
+Sample variance:      13712.5146389822
+Sample std deviation: 117.10044679241066
+Maximum:              1008.5349658019309
+Minimum:              623.3141660320043
+
+- Queue length
+
+Sample mean:          108.51438309141307
+Sample variance:      193.0390491986218
+Sample std deviation: 13.893849329779771
+Maximum:              133.0
+Minimum:              82.0
+
+--------------------- VehiclesSeizure ----------------------
+
+- Utilisation
+
+Sample mean:          0.4027540179517657
+
+- Waiting time
+
+Sample mean:          2.3887162396641677
+Sample variance:      14.136900620823596
+Sample std deviation: 3.759906996299722
+Maximum:              12.425033205076943
+Minimum:              0.0
+
+- Queue length
+
+Sample mean:          0.09572637062947424
+Sample variance:      0.09366846478588316
+Sample std deviation: 0.3060530424385341
+Maximum:              2.0
+Minimum:              0.0
+
+------------------------ Licensing -------------------------
+
+- Utilisation
+
+Sample mean:          1.0
+
+- Waiting time
+
+Sample mean:          446.8268814863498
+Sample variance:      5499.884445003648
+Sample std deviation: 74.16120579523803
+Maximum:              562.8829928682599
+Minimum:              336.833217116695
+
+- Queue length
+
+Sample mean:          21.419115169828054
+Sample variance:      3.226463295448127
+Sample std deviation: 1.7962358685451438
+Maximum:              27.0
+Minimum:              17.0
+
+-------------------- FristHabilitation ---------------------
+
+- Utilisation
+
+Sample mean:          1.0
+
+- Waiting time
+
+Sample mean:          72.42222076628349
+Sample variance:      950.896573675337
+Sample std deviation: 30.836610930440084
+Maximum:              112.9057965867936
+Minimum:              14.045815524188583
+
+- Queue length
+
+Sample mean:          1.7884095623136558
+Sample variance:      0.6785012972258357
+Sample std deviation: 0.8237119018357303
+Maximum:              3.0
+Minimum:              0.0
+
+------------------------ Renovation ------------------------
+
+- Utilisation
+
+Sample mean:          0.36550917653418463
+
+- Waiting time
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              0.0
+Minimum:              0.0
+
+- Queue length
+
+Sample mean:          0.0
+Sample variance:      0.0
+Sample std deviation: 0.0
+Maximum:              1.0
+Minimum:              0.0
+
+--------------------------- Rate ---------------------------
+
+- Utilisation
+
+Sample mean:          1.0
+
+- Waiting time
+
+Sample mean:          1148.1796193431803
+Sample variance:      26741.57751771911
+Sample std deviation: 163.52852203123194
+Maximum:              1402.2586378336616
+Minimum:              913.307708220744
+
+- Queue length
+
+Sample mean:          186.9906234472283
+Sample variance:      585.2129831558705
+Sample std deviation: 24.191175729093253
+Maximum:              229.0
+Minimum:              144.0
 

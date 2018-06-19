@@ -6,6 +6,7 @@ import eduni.simjava.distributions.*;
 class Licensing extends Sim_entity {
 	private Sim_port in, out;
 	private Sim_normal_obj delay;
+	private Sim_stat stat;
 
 	Licensing(String name, double mean, double var) {
 		super(name);
@@ -15,6 +16,11 @@ class Licensing extends Sim_entity {
 		add_port(out);
 		this.delay = new Sim_normal_obj("DelayLicensing", mean, var);
         add_generator(delay);
+		stat = new Sim_stat();
+		stat.add_measure(Sim_stat.UTILISATION);
+		stat.add_measure(Sim_stat.WAITING_TIME);
+		stat.add_measure(Sim_stat.QUEUE_LENGTH);
+		set_stat(stat);
 	}
 
 	public void body() {

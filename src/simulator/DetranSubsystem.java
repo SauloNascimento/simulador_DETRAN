@@ -8,7 +8,7 @@ public class DetranSubsystem {
 	public static void main(String[] args) {
 		Sim_system.initialise();
 		Source source = new Source("Source", 0.25);
-		Ticket processor = new Ticket("Ticket", 10, 5);
+		Ticket processor = new Ticket("Ticket", 3);
 		Auction auction = new Auction("Auction", 50, 15);
 		Habilitation habilitation = new Habilitation("Habilitation", 20, 5);
 		Fines fines = new Fines("Fines", 20, 10);
@@ -34,7 +34,9 @@ public class DetranSubsystem {
 		Sim_system.link_ports("Licensing", "Out", "Rate", "In");
 		Sim_system.link_ports("FristHabilitation", "Out", "Rate", "In");
 		Sim_system.link_ports("Renovation", "Out", "Rate", "In");
+		Sim_system.set_transient_condition(Sim_system.TIME_ELAPSED, 1000);
 		Sim_system.set_trace_detail(false, true, false);
+        Sim_system.set_termination_condition(Sim_system.EVENTS_COMPLETED, "Ticket", 0, 200, false);
 		Sim_system.run();
 	}
 }

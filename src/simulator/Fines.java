@@ -17,8 +17,9 @@ class Fines extends Sim_entity {
 		this.delay = new Sim_normal_obj("DelayFines", mean, var);
         add_generator(delay);
 		stat = new Sim_stat();
-		stat.add_measure(Sim_stat.THROUGHPUT);
-		stat.add_measure(Sim_stat.RESIDENCE_TIME);
+		stat.add_measure(Sim_stat.UTILISATION);
+		stat.add_measure(Sim_stat.WAITING_TIME);
+		stat.add_measure(Sim_stat.QUEUE_LENGTH);
 		set_stat(stat);
 	}
 

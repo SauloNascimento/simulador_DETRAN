@@ -7,6 +7,7 @@ class Habilitation extends Sim_entity {
 	private Sim_port in, out1, out2;
 	private Sim_normal_obj delay;
 	private Sim_random_obj prob;
+	private Sim_stat stat;
 
 	Habilitation(String name, double mean, double var) {
 		super(name);
@@ -20,6 +21,11 @@ class Habilitation extends Sim_entity {
 		this.prob = new Sim_random_obj("HabilitationProbability");
         add_generator(prob);
         add_generator(delay);
+		stat = new Sim_stat();
+		stat.add_measure(Sim_stat.UTILISATION);
+		stat.add_measure(Sim_stat.WAITING_TIME);
+		stat.add_measure(Sim_stat.QUEUE_LENGTH);
+		set_stat(stat);
 	}
 
 	public void body() {

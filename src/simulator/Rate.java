@@ -6,6 +6,7 @@ import eduni.simjava.distributions.*;
 class Rate extends Sim_entity {
 	private Sim_port in;
 	private Sim_normal_obj delay;
+	private Sim_stat stat;
 
 	Rate(String name, double mean, double var) {
 		super(name);
@@ -13,6 +14,11 @@ class Rate extends Sim_entity {
 		add_port(in);
 		this.delay = new Sim_normal_obj("DelayRate", mean, var);
         add_generator(delay);
+		stat = new Sim_stat();
+		stat.add_measure(Sim_stat.UTILISATION);
+		stat.add_measure(Sim_stat.WAITING_TIME);
+		stat.add_measure(Sim_stat.QUEUE_LENGTH);
+		set_stat(stat);
 	}
 
 	public void body() {

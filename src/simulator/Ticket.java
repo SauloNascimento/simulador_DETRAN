@@ -5,11 +5,11 @@ import eduni.simjava.distributions.*;
 
 class Ticket extends Sim_entity {
 	private Sim_port in, out1, out2, out3, out4, out5;
-	private Sim_normal_obj delay;
+	private Sim_negexp_obj delay;
 	private Sim_random_obj prob;
 	private Sim_stat stat;
 
-	Ticket(String name, double mean, double var) {
+	Ticket(String name, double mean) {
 		super(name);
 		in = new Sim_port("In");
 		out1 = new Sim_port("Out1");
@@ -23,13 +23,14 @@ class Ticket extends Sim_entity {
 		add_port(out3);
 		add_port(out4);
 		add_port(out5);
-		this.delay = new Sim_normal_obj("DelayTicket", mean, var);
+		this.delay = new Sim_negexp_obj("DelayTicket", mean);
 		this.prob = new Sim_random_obj("TicketProbability");
 		add_generator(prob);
 		add_generator(delay);
 		stat = new Sim_stat();
-		stat.add_measure(Sim_stat.THROUGHPUT);
-		stat.add_measure(Sim_stat.RESIDENCE_TIME);
+		stat.add_measure(Sim_stat.UTILISATION);
+		stat.add_measure(Sim_stat.WAITING_TIME);
+		stat.add_measure(Sim_stat.QUEUE_LENGTH);
 		set_stat(stat);
 	}
 
