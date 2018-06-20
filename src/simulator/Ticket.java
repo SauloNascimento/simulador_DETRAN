@@ -29,6 +29,7 @@ class Ticket extends Sim_entity {
 		add_generator(delay);
 		stat = new Sim_stat();
 		stat.add_measure(Sim_stat.UTILISATION);
+		stat.add_measure("Response Time", Sim_stat.INTERVAL_BASED);
 		stat.add_measure(Sim_stat.WAITING_TIME);
 		stat.add_measure(Sim_stat.QUEUE_LENGTH);
 		set_stat(stat);
@@ -41,6 +42,8 @@ class Ticket extends Sim_entity {
 			sim_process(delay.sample());
 			;
 			sim_completed(e);
+			sim_trace(1, "ET: " + e.event_time() + " CLK: " + Sim_system.sim_clock());
+			stat.update("Response Time", e.event_time(), Sim_system.sim_clock());
 			double i = prob.sample();
 			if (i < 0.12) {
 				sim_trace(1, "Auction selected for attendance.");

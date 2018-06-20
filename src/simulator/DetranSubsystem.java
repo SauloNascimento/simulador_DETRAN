@@ -7,7 +7,7 @@ public class DetranSubsystem {
 
 	public static void main(String[] args) {
 		Sim_system.initialise();
-		Source source = new Source("Source", 0.25);
+		Source source = new Source("Source", 0.5);
 		Ticket processor = new Ticket("Ticket", 3);
 		Auction auction = new Auction("Auction", 50, 15);
 		Habilitation habilitation = new Habilitation("Habilitation", 20, 5);
@@ -16,7 +16,7 @@ public class DetranSubsystem {
 		Licensing licensing = new Licensing("Licensing", 30, 10);
 		FristHabilitation fristHabilitation = new FristHabilitation("FristHabilitation", 40, 15);
 		Renovation renovation = new Renovation("Renovation", 15, 10);
-		Rate rate = new Rate("Rate", 60, 10);
+		Rate rate = new Rate("Rate", 30, 10);
 
 		Sim_system.link_ports("Source", "Out", "Ticket", "In");
 		Sim_system.link_ports("Ticket", "Out1", "Auction", "In");

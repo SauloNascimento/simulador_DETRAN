@@ -23,6 +23,7 @@ class Habilitation extends Sim_entity {
         add_generator(delay);
 		stat = new Sim_stat();
 		stat.add_measure(Sim_stat.UTILISATION);
+		stat.add_measure("Response Time", Sim_stat.INTERVAL_BASED);
 		stat.add_measure(Sim_stat.WAITING_TIME);
 		stat.add_measure(Sim_stat.QUEUE_LENGTH);
 		set_stat(stat);
@@ -34,6 +35,7 @@ class Habilitation extends Sim_entity {
 			sim_get_next(e);
 			sim_process(delay.sample());
 			sim_completed(e);
+			stat.update("Response Time", e.event_time(), Sim_system.sim_clock());
 			double i = prob.sample();
 			if (i < 0.59) {
 				sim_trace(1, "Frist Habilitation selected for attendance.");

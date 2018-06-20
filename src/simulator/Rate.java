@@ -16,6 +16,7 @@ class Rate extends Sim_entity {
         add_generator(delay);
 		stat = new Sim_stat();
 		stat.add_measure(Sim_stat.UTILISATION);
+		stat.add_measure("Response Time", Sim_stat.INTERVAL_BASED);
 		stat.add_measure(Sim_stat.WAITING_TIME);
 		stat.add_measure(Sim_stat.QUEUE_LENGTH);
 		set_stat(stat);
@@ -25,9 +26,10 @@ class Rate extends Sim_entity {
 		while (Sim_system.running()) {
 			Sim_event e = new Sim_event();
 			sim_get_next(e);
-			sim_trace(1, "Disk request started");
 			sim_process(delay.sample());
 			sim_completed(e);
+			stat.update("Response Time", e.event_time(), Sim_system.sim_clock());
+			sim_trace(1, "Attendance completed");
 		}
 	}
 }
